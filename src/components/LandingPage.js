@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import moment from "moment";
 
 class LandingPage extends Component {
+    state = {
+        startDate: moment()
+    };
     render() {
+        const selectedDate = this.state.startDate.format("Do MMMM YYYY");
         return (
             <>
+                <div id="clock">{selectedDate}</div>
                 <h1 id="main">Welcome to Youtube Chanel!</h1>
                 <div id="container">
                     <div>

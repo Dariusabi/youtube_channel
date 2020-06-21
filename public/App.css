@@ -84,3 +84,11 @@ iframe {
     margin-top: 1em;
     color: #007ea7;
 }
+
+#clock {
+    text-align: center;
+    color: #007ea7;
+    font-size: larger;
+    margin-top: 2em;
+
+}
