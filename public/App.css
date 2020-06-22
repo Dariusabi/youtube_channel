@@ -90,5 +90,14 @@ iframe {
     color: #007ea7;
     font-size: larger;
     margin-top: 2em;
+}
 
+.render {
+    width: 100%;
+    height: auto;
+}
+
+#play {
+    width: 40em;
+    height: 30em;
 }
